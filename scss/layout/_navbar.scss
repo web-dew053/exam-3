@@ -1,0 +1,258 @@
+// navbar
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+ 
+}
+
+
+.menu{
+  display: none;
+}
+
+
+.nav__left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav__ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.nav__ul-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.right-link {
+
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.right-links{
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  border-radius: 18px;
+  padding: 10px 25px;
+  border: 3px solid #000; 
+}
+
+// dropdown
+
+.ul-dropdown{
+  display: none;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  list-style-type: none;
+  width: 140px;
+  height: 170px;
+  background-color: #fff;
+  position: absolute;
+  top: 80px;
+  left: 390px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px #000;
+  &.active{
+    display: block;
+  }
+  li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+
+  }
+}
+
+.ul-drop{
+  display: none;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  list-style-type: none;
+  width: 180px;
+  height: 200px;
+  background-color: #fff;
+  position: absolute;
+  top: 80px;
+  left: 190px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px  #000;
+
+  &.active{
+    display: block;
+  }
+  
+  
+  li{
+    // padding: 8px ;
+    margin-bottom: 15px;
+    img{
+      margin-left: 8px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+body{
+  background-color: rgba(255, 255, 255, 0.751);
+}
+
+@media only screen and (max-width :576px) {
+
+  .menu{
+    display: block;
+  }
+  
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+   
+  }
+  .nav__left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .nav__ul {
+    
+    display: none;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+  }
+  
+  .nav__ul-right {
+    display: flex;
+    display: none;
+    
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  .right-link {
+  
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+  }
+  
+  .right-links{
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+    border-radius: 18px;
+    padding: 10px 25px;
+    border: 3px solid #000; 
+  }
+  
+  // dropdown
+  
+  .ul-dropdown{
+    display: none;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    width: 140px;
+    height: 170px;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 390px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px #000;
+    li{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      padding: 5px;
+  
+    }
+  }
+  
+  .ul-drop{
+    display: none;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    list-style-type: none;
+    width: 180px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 190px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px  #000;
+    
+    li{
+      // padding: 8px ;
+      margin-bottom: 15px;
+      img{
+        margin-left: 8px;
+      }
+    }
+  
+  }
+  
+
+}
+
